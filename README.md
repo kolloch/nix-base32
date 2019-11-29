@@ -1,5 +1,7 @@
 # nix-base32
 
+[![Crate](https://img.shields.io/crates/v/nix-base32.svg)](https://crates.io/crates/nix-base32)
+
 This crate encodes a `[u8]` byte slice in a nix-compatible way.
 SHA256 hash codes in [nix](https://nixos.org/nix/) are usually encoded in base32 with
 an unusual set of characters (without E O U T).
