@@ -1,0 +1,9 @@
+[package]
+name = "nix-base32"
+version = "0.1.0"
+authors = ["Peter Kolloch <info@eigenvalue.net>"]
+edition = "2018"
+license = "Apache-2.0"
+
+[dev-dependencies]
+hex = "0.4"
