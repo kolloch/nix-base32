@@ -1,8 +1,8 @@
 //! # Encodes `[u8]` as base32 like nix
 //!
-//! SHA256 hash codes in [nix](https://nixos.org/nix/) are usually encoded in base32.
-//! An unusual set of characters is used (without E O U T). This crate defines one helper
-//! to encode a `[u8]` byte slice in a compatible way.
+//! This crate encodes a `[u8]` byte slice in a nix-compatible way.
+//! SHA256 hash codes in [nix](https://nixos.org/nix/) are usually encoded in base32 with
+//! an unusual set of characters (without E O U T).
 
 // omitted: E O U T
 const BASE32_CHARS: &[u8] = b"0123456789abcdfghijklmnpqrsvwxyz";
