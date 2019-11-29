@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Peter Kolloch <info@eigenvalue.net>"]
 edition = "2018"
 license = "Apache-2.0"
+description = "Provides actor-like concurrency for Rust"
+repository = "https://github.com/kolloch/nix-base32"
+readme = "README.md"
+keywords = ["nixos", "nix", "base32", "hash"]
 
 [dev-dependencies]
 hex = "0.4"
