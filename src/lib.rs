@@ -1,6 +1,7 @@
-//! # Encodes `[u8]` as base32 like nix
+//! # Nix-specific base32 encoder/decoder
 //!
-//! This crate encodes a `[u8]` byte slice in a nix-compatible way.
+//! This crate implements conversion between a `[u8]` slice and its Nix-specific base32
+//! representation.
 //! SHA256 hash codes in [nix](https://nixos.org/nix/) are usually encoded in base32 with
 //! an unusual set of characters (without E O U T).
 
